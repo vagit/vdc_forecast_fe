@@ -1,30 +1,30 @@
-import * as actionTypes from './actionTypes'
+import * as actionTypes from "./actionTypes"
 
 export const loadCityPending = (bool) => ({
   type: actionTypes.LOAD_CITY_START,
-  loading: bool
+  loading: bool,
 })
 
 export const loadCityError = (bool) => ({
   type: actionTypes.LOAD_CITY_FAILED,
-  error: bool
+  error: bool,
 })
 
 export const loadCitySuccess = (city) => ({
   type: actionTypes.LOAD_CITY_SUCCESS,
-  city: city
+  city: city,
 })
 
 export const loadCity = (keyword) => ({
   type: actionTypes.LOAD_CITY,
-  keyword: keyword
+  keyword: keyword,
 })
 
 export const showCitySuggestion = (showBool) => ({
   type: actionTypes.SHOW_CITY_SUGGESTION,
-  showCitySuggestionFlag: showBool
+  showCitySuggestionFlag: showBool,
 })
 
 export const clearCitySuggestion = () => ({
-  type: actionTypes.CLEAR_CITY_SUGGESTION
+  type: actionTypes.CLEAR_CITY_SUGGESTION,
 })

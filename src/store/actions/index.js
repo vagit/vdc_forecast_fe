@@ -1,9 +1,3 @@
-export {
-  loadWeather
-} from './weather'
+export { loadWeather } from "./weather"
 
-export {
-  loadCity,
-  showCitySuggestion,
-  clearCitySuggestion
-} from './city'
+export { loadCity, showCitySuggestion, clearCitySuggestion } from "./city"

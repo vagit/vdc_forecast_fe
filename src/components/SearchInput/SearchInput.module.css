@@ -1,0 +1,16 @@
+.ButtonSearch {
+  margin: 10px 0;
+}
+.SearchInputContainer {
+  position: relative;
+}
+.SearchInputSuggestion {
+  position: absolute;
+  background: white;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,.2);
+  z-index: 10;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
